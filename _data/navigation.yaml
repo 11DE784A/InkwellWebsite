@@ -1,0 +1,16 @@
+sections:
+  - title: Latest
+    url: latest.html
+
+  - title: Issues
+    url: issues.html
+
+  - title: Submit
+    url: submit.html
+
+  - title: About
+    url: about.html
+
+  - title: Feed
+    url: feed.xml
+
