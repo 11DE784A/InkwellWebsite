@@ -3,6 +3,30 @@
 
   --body-font-family: 'Source Sans 3', sans-serif;
   --heading-font-family: 'Alatsi', sans-serif;
+
+  /* Colors */
+
+  --white: #fff;
+  --black: #000;
+  
+  --grey-ee: #eee;
+  --grey-df: #dfdfdf;
+  --grey-aa: #aaa;
+  --grey-77: #777;
+  --grey-44: #444;
+  --grey-33: #333;
+  --grey-1b: #1b1b1b;
+ 
+  --molten-lava: #7a0000;
+  --brick-red: #c1121f;
+
+  /* Light colors */
+  --bg: var(--white);
+
+  --fg1: var(--black);
+  --fg2: var(--grey-77);
+
+  --accent1: var(--molten-lava);
 }
 
 /* Reset */
@@ -43,6 +67,8 @@ iframe {
 /* Main */
 
 body {
+  background: var(--bg);
+  color: var(--fg1);
   font-size: var(--base-font-size);
   font-family: var(--body-font-family);
   line-height: 1.5;
@@ -86,6 +112,30 @@ main > * {
 
 section > * {
   margin-bottom: 0.4rem;
+}
+
+/* Links */
+
+a {
+  outline: none;
+  text-decoration: underline;
+}
+
+a:link {
+    color: var(--accent1);
+}
+
+a:visited {
+    color: var(--accent1);
+}
+
+a:focus {
+    color: var(--accent1);
+}
+
+a:hover,
+a:active {
+  text-decoration: unset;
 }
 
 /* Posts */
