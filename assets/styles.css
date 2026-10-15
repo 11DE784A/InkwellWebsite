@@ -111,8 +111,43 @@ main > * {
   margin-bottom: 2.4rem;
 }
 
+h1 {
+  font-size: calc(1.6 * var(--base-font-size));
+}
+
+h2 {
+  font-size: calc(1.3 * var(--base-font-size));
+}
+
 section > * {
   margin-bottom: 0.4rem;
+}
+
+section h2 {
+  font-size: var(--base-font-size);
+  font-weight: bold;
+}
+
+.author,
+.category,
+.date {
+  font-family: var(--sans-font);
+  font-size: calc(0.8 * var(--base-font-size));
+  text-transform: uppercase;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.category {
+  color: var(--accent1);
+}
+
+.date::before {
+  content: "• ";
+  margin: 0 0.4rem;
+  opacity: 0.5;
 }
 
 /* Links */
@@ -122,14 +157,8 @@ a {
   text-decoration: underline;
 }
 
-a:link {
-    color: var(--accent1);
-}
-
-a:visited {
-    color: var(--accent1);
-}
-
+a:link,
+a:visited, 
 a:focus {
     color: var(--accent1);
 }
@@ -138,6 +167,22 @@ a:hover,
 a:active {
   text-decoration: unset;
 }
+
+section a {
+  text-decoration: none;
+}
+
+section a:link,
+section a:visited,
+section a:focus {
+  color: var(--fg1);
+}
+
+section a:hover,
+section a:active {
+  text-decoration: underline;
+}
+
 
 /* Posts */
 
