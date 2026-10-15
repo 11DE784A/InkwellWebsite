@@ -1,8 +1,9 @@
 :root {
-  --base-font-size: 2rem;
+  --base-font-size: 1.6rem;
 
-  --body-font-family: 'Source Sans 3', sans-serif;
-  --heading-font-family: 'Alatsi', sans-serif;
+  --sans-font: 'IBM Plex Sans', sans-serif;
+  --mono-font: 'IBM Plex Mono', monospace;
+  --serif-font: 'IBM Plex Serif', serif;
 
   /* Colors */
 
@@ -70,7 +71,7 @@ body {
   background: var(--bg);
   color: var(--fg1);
   font-size: var(--base-font-size);
-  font-family: var(--body-font-family);
+  font-family: var(--serif-font);
   line-height: 1.5;
 }
 
@@ -102,7 +103,7 @@ nav ul li {
 }
 
 main {
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
