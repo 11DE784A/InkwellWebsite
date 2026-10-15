@@ -1,6 +1,6 @@
 sections:
   - title: Latest
-    url: latest.html
+    url: /
 
   - title: Issues
     url: issues.html
