@@ -122,6 +122,15 @@ h2 {
   font-size: calc(1.3 * var(--base-font-size));
 }
 
+h3 {
+  font-size: calc(1.1 * var(--base-font-size));
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
 section > * {
   margin-bottom: 0.4rem;
 }
