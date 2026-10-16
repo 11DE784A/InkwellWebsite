@@ -2,10 +2,10 @@
 layout: post
 title: "Aenean bibendum tristique nulla sed vulputate"
 author: Lorem Ipsum
-categories: Opinion
+tags: [Opinion, Essay]
+category: 1
 date:   2026-09-18 00:00:01 +0200
 excerpt: Aenean quis ex lorem. Nulla imperdiet nunc ac urna scelerisque, non egestas nisi volutpat.
-issue: 1
 ---
 
 Aenean quis ex lorem.  Nulla imperdiet nunc ac urna scelerisque, non egestas

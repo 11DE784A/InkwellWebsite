@@ -2,10 +2,10 @@
 layout: post
 title: "Curabitur tincidunt dapibus justo id efficitur"
 author: Lorem Ipsum
-categories: Fiction
+tags: [Fiction]
+category: 1
 date:   2026-09-18 00:00:01 +0200
 excerpt: Pellentesque venenatis viverra dapibus. Pellentesque semper sem quis erat vehicula varius.
-issue: 1
 ---
 
 Aenean quis ex lorem.  Nulla imperdiet nunc ac urna scelerisque, non egestas

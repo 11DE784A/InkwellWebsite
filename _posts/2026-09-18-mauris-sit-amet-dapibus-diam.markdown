@@ -2,10 +2,10 @@
 layout: post
 title: "Mauris sit amet dapibus diam"
 author: Felisa Vestibulum
-categories: Poetry
+tags: [Poetry]
+category: 1
 date:   2026-09-18 00:00:01 +0200
 excerpt: Mauris libero arcu, lacinia quis aliquam maximus, tincidunt convallis nunc.
-issue: 1
 ---
 
 Mauris sit amet dapibus diam.  

@@ -2,10 +2,10 @@
 layout: post
 title: "Ut urna lobortis ac dui et dignissim dictum eros"
 author: Nam Fringilla
-categories: Reviews_&_Recs
+tags: [Reviews & Recs]
+category: 1
 date:   2026-09-18 00:00:01 +0200
 excerpt: Nulla sodales, tortor vitae faucibus hendrerit, nisi massa ornare dolor, in ornare risus eros congue lorem. Etiam ac leo mattis, ullamcorper mi sagittis, vehicula sem.
-issue: 1
 ---
 
 Aenean quis ex lorem.  Nulla imperdiet nunc ac urna scelerisque, non egestas

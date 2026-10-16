@@ -2,10 +2,10 @@
 layout: post
 title: "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubila curae"
 author: Odio Tincidunt
-categories: Opinion
+tags: [Opinion]
+category: 1
 date:   2026-09-18 00:00:01 +0200
 excerpt: Suspendisse vitae odio pulvinar, vehicula massa vel, luctus neque. Fusce non libero orci. Ut aliquam erat ut elit fringilla, eget viverra felis bibendum. 
-issue: 1
 ---
 
 Aenean quis ex lorem.  Nulla imperdiet nunc ac urna scelerisque, non egestas

@@ -2,10 +2,10 @@
 layout: post
 title: "Sed porttitor dictum blandit"
 author: Nascetur Ridiculus
-categories: Art_&_Comics
+tags: [Art & Comics]
+category: 1
 date:   2026-09-18 00:00:01 +0200
 excerpt: Integer tempor, neque in euismod vulputate, erat nisl ornare nunc, sed vestibulum diam dui vel neque. Ut hendrerit turpis in dui tristique pretium.
-issue: 1
 ---
 
 Aenean quis ex lorem.  Nulla imperdiet nunc ac urna scelerisque, non egestas

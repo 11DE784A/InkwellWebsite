@@ -132,7 +132,7 @@ section h2 {
 }
 
 .author,
-.category,
+.tag,
 .date {
   font-family: var(--sans-font);
   font-size: calc(0.8 * var(--base-font-size));
@@ -143,8 +143,11 @@ section h2 {
   font-weight: bold;
 }
 
-.category {
+.tag {
   color: var(--accent1);
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 0.4rem;
 }
 
 .date::before {
@@ -167,7 +170,7 @@ footer {
   margin-bottom: 1.2rem;
 }
 
-.post-header .category,
+.post-header .tag,
 .post-header .author,
 .post-header .date {
   font-size: calc(0.85 * var(--base-font-size));
