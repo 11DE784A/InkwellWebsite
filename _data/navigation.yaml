@@ -3,14 +3,14 @@ sections:
     url: /
 
   - title: Issues
-    url: issues.html
+    url: /issues
 
   - title: Submit
-    url: submit.html
+    url: /submit
 
   - title: About
-    url: about.html
+    url: /about
 
   - title: Feed
-    url: feed.xml
+    url: /feed.xml
 
