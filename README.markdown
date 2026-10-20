@@ -2,6 +2,16 @@
 
 This repository contains source files for the SISSA Inkwell website.
 
+## TODO
+
+- [ ] About page
+- [ ] Submission Guidelines page
+- [ ] Issues page
+- [ ] Customize the 404 page
+- [ ] Favicon
+- [ ] Configure XML feed
+- [ ] Licenses (use [REUSE](https://reuse.software/))
+
 ## About the website
 
 This website uses [Jekyll](https://jekyllrb.com/) for layouts and template
