@@ -17,6 +17,10 @@
   --grey-44: #444;
   --grey-33: #333;
   --grey-1b: #1b1b1b;
+
+  --beige: #f6f0e4;
+  --burgundy: #3d1a0d;
+  --chocolate-brown: #debfab;
  
   --molten-lava: #7a0000;
   --brick-red: #c1121f;
@@ -79,17 +83,26 @@ body > * {
   margin-bottom: 2.4rem;
 }
 
+header {
+  background-image: url("/assets/images/backgroundwriting.jpg");
+  background-size: 25%;
+}
+
+footer {
+  background: var(--chocolate-brown);
+}
+
 .inkwell-logo {
-  margin-top: 1rem;
   text-align: center;
 }
 
 .inkwell-logo img {
-  min-width: 12rem;
-  width: 10%;
+  padding: 2rem 0;
+  width: 30rem;
 }
 
 nav {
+  padding-bottom: 3rem;
   text-align: center;
 }
 
@@ -100,7 +113,25 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 1rem;
+  margin: 0.6rem;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+  background: var(--burgundy);
+  border-radius: 1rem;
+  color: var(--beige);
+  display: block;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+  text-decoration: none;
+  color: var(--chocolate-brown);
 }
 
 main {
@@ -166,12 +197,6 @@ section h2 {
 }
 
 /* Borders */
-
-footer {
-  border-top-style: solid;
-  border-width: 1px;
-  border-color: var(--fg2);
-}
 
 /* Post page */
 
