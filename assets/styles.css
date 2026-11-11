@@ -1,6 +1,8 @@
 :root {
   --base-font-size: 1.6rem;
 
+  --box-radius: 1rem;
+
   --sans-font: 'IBM Plex Sans', sans-serif;
   --mono-font: 'IBM Plex Mono', monospace;
   --serif-font: 'IBM Plex Serif', serif;
@@ -21,17 +23,6 @@
   --beige: #f6f0e4;
   --burgundy: #3d1a0d;
   --chocolate-brown: #debfab;
- 
-  --molten-lava: #7a0000;
-  --brick-red: #c1121f;
-
-  /* Light colors */
-  --bg: var(--white);
-
-  --fg1: var(--black);
-  --fg2: var(--grey-77);
-
-  --accent1: var(--molten-lava);
 }
 
 /* Reset */
@@ -72,8 +63,8 @@ iframe {
 /* Main */
 
 body {
-  background: var(--bg);
-  color: var(--fg1);
+  background: var(--beige);
+  color: var(--black);
   font-size: var(--base-font-size);
   font-family: var(--serif-font);
   line-height: 1.5;
@@ -120,7 +111,8 @@ nav a:link,
 nav a:visited,
 nav a:focus {
   background: var(--burgundy);
-  border-radius: 1rem;
+  border-radius: var(--box-radius);
+  box-shadow: 0 0 0.2rem var(--grey-77);
   color: var(--beige);
   display: block;
   font-weight: bold;
@@ -130,13 +122,14 @@ nav a:focus {
 
 nav a:hover,
 nav a:active {
-  text-decoration: none;
+  box-shadow: 0 0 0.4rem var(--grey-77);
   color: var(--chocolate-brown);
+  text-decoration: none;
 }
 
 main {
   margin: 0 auto;
-  max-width: 74rem;
+  max-width: 80rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -162,6 +155,18 @@ h4 {
   font-weight: bold;
 }
 
+section {
+  background: var(--white);
+  border: 1px solid var(--chocolate-brown);
+  border-radius: var(--box-radius);
+  box-shadow: 0 0 0.4rem var(--grey-aa);
+  padding: 2rem;
+}
+
+section:hover {
+  box-shadow: 0 0 0.8rem var(--grey-aa);
+}
+
 section > * {
   margin-bottom: 0.4rem;
 }
@@ -184,7 +189,7 @@ section h2 {
 }
 
 .tag {
-  color: var(--accent1);
+  color: var(--burgundy);
   display: inline-block;
   font-weight: bold;
   margin-right: 0.4rem;
@@ -221,7 +226,7 @@ a {
 a:link,
 a:visited, 
 a:focus {
-    color: var(--accent1);
+    color: var(--burgundy);
 }
 
 a:hover,
@@ -236,7 +241,7 @@ section a {
 section a:link,
 section a:visited,
 section a:focus {
-  color: var(--fg1);
+  color: var(--black);
 }
 
 section a:hover,
