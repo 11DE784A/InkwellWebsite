@@ -210,6 +210,10 @@ section h2 {
 
 /* Post page */
 
+.post-body {
+  background: var(--white);
+}
+
 .post-header > * {
   margin-bottom: 1.2rem;
 }
