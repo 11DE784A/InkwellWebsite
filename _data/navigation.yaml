@@ -5,6 +5,9 @@ sections:
   - title: Issues
     url: /issues/
 
+  - title: Categories
+    url: /categories/
+
   - title: Submit
     url: /submit/
 
