@@ -3,11 +3,11 @@ sections:
     url: /
 
   - title: Issues
-    url: /issues
+    url: /issues/
 
   - title: Submit
-    url: /submit
+    url: /submit/
 
   - title: About
-    url: /about
+    url: /about/
 
