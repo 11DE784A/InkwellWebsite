@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SISSA Inkwell
+title: Home
 ---
 
 <h1>Welcome to SISSA Inkwell!</h1>

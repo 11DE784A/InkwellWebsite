@@ -1,6 +1,6 @@
 ---
 layout: default
-title: submit
+title: Submit
 permalink: /submit/
 ---
 
