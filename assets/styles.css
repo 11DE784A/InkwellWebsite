@@ -162,15 +162,6 @@ h4 {
   font-weight: bold;
 }
 
-section {
-  background: var(--white-75);
-  background-blend-mode: lighten;
-  border: 1px solid var(--chocolate-brown);
-  border-radius: var(--box-radius);
-  box-shadow: 0 0 0.4rem var(--grey-aa);
-  padding: 2rem;
-}
-
 section:hover {
   box-shadow: 0 0 0.8rem var(--grey-aa);
 }
@@ -185,9 +176,15 @@ section h2 {
 }
 
 .card {
+  background: var(--white-75);
+  background-blend-mode: lighten;
   background-position: 2% 50%, 98% 50%;
   background-repeat: no-repeat;
   background-size: auto 90%;
+  border: 1px solid var(--chocolate-brown);
+  border-radius: var(--box-radius);
+  box-shadow: 0 0 0.4rem var(--grey-aa);
+  padding: 2rem;
 }
 
 .art-comics {
