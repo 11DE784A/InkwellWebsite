@@ -161,10 +161,6 @@ h4 {
   font-weight: bold;
 }
 
-section:hover {
-  box-shadow: 0 0 0.8rem var(--grey-aa);
-}
-
 section > * {
   margin-bottom: 0.4rem;
 }
@@ -180,10 +176,13 @@ section h2 {
   background-position: 2% 50%, 98% 50%;
   background-repeat: no-repeat;
   background-size: auto 90%;
-  border: 1px solid var(--chocolate-brown);
   border-radius: var(--box-radius);
-  box-shadow: 0 0 0.4rem var(--grey-aa);
+  box-shadow: 0 0 0.4rem var(--chocolate-brown);
   padding: 2rem;
+}
+
+.card:hover {
+  box-shadow: 0 0 0.6rem var(--chocolate-brown);
 }
 
 .art-comics {
