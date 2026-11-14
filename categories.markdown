@@ -8,7 +8,8 @@ permalink: /categories/
 
 Inkwell articles collected by category.
 
-{% for tag in site.tags %}
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
 ## {{ tag[0] }}
 
 {% assign tag_posts = tag[1] %}
