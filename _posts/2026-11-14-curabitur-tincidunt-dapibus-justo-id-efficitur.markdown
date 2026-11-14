@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Sed porttitor dictum blandit"
-author: Nascetur Ridiculus
-tags: [Art & Comics]
-category: 1
-date:   2026-09-18 00:00:01 +0200
-excerpt: Integer tempor, neque in euismod vulputate, erat nisl ornare nunc, sed vestibulum diam dui vel neque. Ut hendrerit turpis in dui tristique pretium.
+title: "Curabitur tincidunt dapibus justo id efficitur"
+author: Lorem Ipsum
+tags: [Fiction]
+category: 2
+date:   2026-11-14 00:00:01 +0200
+excerpt: Pellentesque venenatis viverra dapibus. Pellentesque semper sem quis erat vehicula varius.
 ---
 
 Aenean quis ex lorem.  Nulla imperdiet nunc ac urna scelerisque, non egestas

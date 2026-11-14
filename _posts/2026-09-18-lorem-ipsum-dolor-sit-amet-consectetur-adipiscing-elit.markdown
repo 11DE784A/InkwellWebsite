@@ -4,7 +4,7 @@ title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
 author: Parturient Montes
 tags: [Personal Essay]
 category: 1
-date:   2026-09-18 00:00:01 +0200
+date:   2026-09-20 00:00:01 +0200
 excerpt: Nullam eget varius justo, et ornare augue. Aenean dictum odio non urna sagittis eleifend. Ut vel ipsum sed neque mollis accumsan sed mollis enim.
 ---
 
