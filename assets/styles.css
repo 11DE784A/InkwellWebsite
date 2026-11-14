@@ -90,7 +90,7 @@ footer {
 }
 
 .inkwell-logo img {
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 30rem;
 }
 
@@ -100,38 +100,37 @@ footer {
 }
 
 nav {
-  padding-bottom: 3rem;
+  background: var(--white);
+  box-shadow: 0 0 0.4rem var(--chocolate-brown);
   text-align: center;
 }
+
+nav:hover {
+  box-shadow: 0 0 0.6rem var(--chocolate-brown);
+}
+
+nav ul li {
+  font-weight: bold;
+  display: inline-block;
+  margin: 1rem;
+}
+
 
 nav ul {
   list-style: none;
   margin: 0 auto;
 }
 
-nav ul li {
-  display: inline-block;
-  margin: 0.6rem;
-}
 
 nav a:link,
 nav a:visited,
 nav a:focus {
-  background: var(--burgundy);
-  border-radius: var(--box-radius);
-  box-shadow: 0 0 0.2rem var(--grey-77);
-  color: var(--beige);
-  display: block;
-  font-weight: bold;
-  padding: 0.6rem 1.2rem;
   text-decoration: none;
 }
 
 nav a:hover,
 nav a:active {
-  box-shadow: 0 0 0.4rem var(--grey-77);
-  color: var(--chocolate-brown);
-  text-decoration: none;
+  color: var(--black);
 }
 
 main {
