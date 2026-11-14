@@ -5,7 +5,7 @@ This repository contains source files for the SISSA Inkwell website.
 ## TODO
 
 - [ ] About page
-- [ ] Animations
+- [x] Animations
 - [ ] Submission Guidelines page
 - [x] Issues page
 - [ ] Customize the 404 page

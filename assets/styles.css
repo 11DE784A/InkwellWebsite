@@ -25,6 +25,8 @@
   --beige: #f6f0e4;
   --burgundy: #3d1a0d;
   --chocolate-brown: #debfab;
+
+  --default-transition: 75ms ease-in-out 15ms;
 }
 
 /* Reset */
@@ -103,10 +105,11 @@ nav {
   background: var(--white);
   box-shadow: 0 0 0.4rem var(--chocolate-brown);
   text-align: center;
+  transition: var(--default-transition);
 }
 
 nav:hover {
-  box-shadow: 0 0 0.6rem var(--chocolate-brown);
+  box-shadow: 0 0 0.8rem var(--chocolate-brown);
 }
 
 nav ul li {
@@ -179,10 +182,11 @@ section h2 {
   border-radius: var(--box-radius);
   box-shadow: 0 0 0.4rem var(--chocolate-brown);
   padding: 2rem;
+  transition: var(--default-transition);
 }
 
 .card:hover {
-  box-shadow: 0 0 0.6rem var(--chocolate-brown);
+  box-shadow: 0 0 0.8rem var(--chocolate-brown);
 }
 
 .art-comics {
@@ -260,21 +264,22 @@ section h2 {
 a {
   outline: none;
   text-decoration: underline;
+  transition: var(--default-transition);
 }
 
 a:link,
 a:visited, 
 a:focus {
-    color: var(--burgundy);
+  color: var(--burgundy);
 }
 
 a:hover,
 a:active {
-  text-decoration: unset;
+  text-decoration-color: transparent;
 }
 
 section a {
-  text-decoration: none;
+  text-decoration-color: transparent;
 }
 
 section a:link,
@@ -285,7 +290,7 @@ section a:focus {
 
 section a:hover,
 section a:active {
-  text-decoration: underline;
+  text-decoration-color: unset;
 }
 
 
