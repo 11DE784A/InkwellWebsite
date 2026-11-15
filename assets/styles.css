@@ -1,11 +1,13 @@
+/* Variables */
+
 :root {
-  --base-font-size: 1.6rem;
+  --base-font-size: 2rem;
 
   --box-radius: 1rem;
 
-  --sans-font: 'IBM Plex Sans', sans-serif;
-  --mono-font: 'IBM Plex Mono', monospace;
-  --serif-font: 'IBM Plex Serif', serif;
+  --sans-font: 'Alegreya Sans', sans-serif;
+  --serif-font: 'Alegreya', serif;
+  --mono-font: 'Iosevka Charon Mono', monospace;
 
   /* Colors */
 
@@ -224,13 +226,13 @@ section h2 {
 }
 
 .author {
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .tag {
   color: var(--burgundy);
   display: inline-block;
-  font-weight: bold;
+  font-weight: 800;
   margin-right: 0.4rem;
 }
 
@@ -255,8 +257,8 @@ section h2 {
 .post-header .tag,
 .post-header .author,
 .post-header .date {
-  font-size: calc(0.85 * var(--base-font-size));
-  font-weight: bold;
+  font-size: calc(0.8 * var(--base-font-size));
+  font-weight: 800;
 }
 
 /* Links */
