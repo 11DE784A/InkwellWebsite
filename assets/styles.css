@@ -85,9 +85,6 @@ header {
   background-size: 25%;
 }
 
-footer {
-  background: var(--chocolate-brown);
-}
 
 .inkwell-logo {
   text-align: center;
@@ -319,4 +316,28 @@ footer {
   padding: 2rem;
   text-align: center;
   margin: unset;
+}
+
+footer {
+  background: var(--chocolate-brown);
+}
+
+/* Make footer stick to the bottom */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
 }
