@@ -8,7 +8,7 @@ This repository contains source files for the SISSA Inkwell website.
 - [x] Animations
 - [ ] Submission Guidelines page
 - [x] Issues page
-- [ ] Customize the 404 page
+- [x] Customize the 404 page
 - [x] Favicon
 - [ ] Configure XML feed
 - [ ] Licenses (use [REUSE](https://reuse.software/))
