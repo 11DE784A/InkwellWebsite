@@ -8,7 +8,7 @@ date:   2026-09-18 00:00:01 +0200
 excerpt: Aenean quis ex lorem. Nulla imperdiet nunc ac urna scelerisque, non egestas nisi volutpat.
 ---
 
-Aenean quis ex lorem.  Nulla imperdiet nunc ac urna scelerisque, non egestas
+`Aenean quis ex lorem.`  Nulla imperdiet nunc ac urna scelerisque, non egestas
 nisi volutpat. Cras ut tellus id nisi placerat pharetra. Lorem ipsum dolor sit
 amet, consectetur adipiscing elit. Mauris at fringilla nunc. Etiam semper ante
 sed massa ultrices, sit amet vestibulum sem dictum. Aliquam pharetra, purus vel
@@ -17,11 +17,21 @@ Aliquam ac urna in lacus tempus elementum in sit amet ex. Integer sed rutrum
 ante. Morbi ultricies tincidunt malesuada. Curabitur augue dui, tristique nec
 facilisis eget, tincidunt eget purus. Suspendisse at semper nisi.
 
+```c
+int main() {
+    printf("Hello world\n");
+}
+```
+
 Nunc vulputate congue risus, sit amet consectetur ex mollis sit amet. Integer
 placerat, nunc eu vulputate hendrerit, dui elit feugiat tortor, vitae placerat
 lectus lacus ac dolor. Donec ipsum odio, mattis at venenatis sed, sollicitudin
-vel turpis. Ut feugiat sapien est, in euismod est accumsan eget. Donec blandit
-lacus orci, eu vulputate nulla viverra sed. Cras ut nisi et nisl ornare
+vel turpis. 
+
+> Ut feugiat sapien est, in euismod est accumsan eget. Donec blandit
+> lacus orci, eu vulputate nulla viverra sed. 
+
+Cras ut nisi et nisl ornare
 lobortis. Pellentesque a massa scelerisque odio rhoncus porta eget aliquam
 erat. Pellentesque egestas ac nulla ut sodales. Pellentesque habitant morbi
 tristique senectus et netus et malesuada fames ac turpis egestas. Integer

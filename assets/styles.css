@@ -242,7 +242,24 @@ section h2 {
   opacity: 0.5;
 }
 
-/* Borders */
+code {
+  border-radius: 0.4rem;
+  font-family: var(--mono-font);
+  font-size: calc(0.9 * var(--base-font-size));
+  border: 1px solid var(--chocolate-brown);
+  padding: 0 0.2rem;
+}
+
+pre code {
+  display: block;
+  padding: 0.8rem;
+}
+
+blockquote {
+  padding: 0.8rem 1.6rem;
+  background: var(--beige);
+  border-left: 0.5rem solid var(--chocolate-brown);
+}
 
 /* Post page */
 
