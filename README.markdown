@@ -4,16 +4,19 @@ This repository contains source files for the SISSA Inkwell website.
 
 ## TODO
 
-- [ ] About page
+- [x] About page
 - [x] Animations
-- [ ] Submission Guidelines page
+- [x] Submission Guidelines page
 - [x] Issues page
 - [x] Customize the 404 page
 - [x] Favicon
 - [ ] Configure XML feed
-- [ ] Links to Instagram and Email
+- [x] Links to Instagram and Email
 - [ ] Analytics
 - [ ] Multilingual pages
+- [ ] Instructions for adding new posts and new social media
+- [ ] Image previews in cards
+- [ ] Separators in tags
 - [ ] Licenses (use [REUSE](https://reuse.software/))
 
 ## About the website
