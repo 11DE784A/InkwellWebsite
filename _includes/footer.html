@@ -1,11 +1,42 @@
     <footer>
-      <div class="going-beyond-science">
-        <img src="/assets/images/goingbeyondscience.png">
+      <div class="footer-left">
+        <div class="going-beyond-science">
+          <img src="/assets/images/goingbeyondscience.png">
+        </div>
+        <p>
+        Inkwell is a community magazine for people at SISSA to share whatever is
+        on their mind.
+        </p>
       </div>
-      <p>
-      Inkwell is a community magazine for people at SISSA to share whatever is
-      on their mind.
-      </p>
+      <div class="footer-right">
+        <section>
+          <h2>Navigation</h2>
+          <ul>
+            {% for item in site.data.navigation.sections %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section>
+          <h2>Categories</h2>
+          <ul>
+            {% assign sorted_tags = site.tags | sort %}
+            {% for tag in sorted_tags %}
+            <li><a href="/categories/#{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section>
+          <h2>Get in touch</h2>
+          <ul>
+            {% for contact in site.data.contact %}
+            <li><a href="{{ contact.url }}" title="{{ contact.hover }}">{{ contact.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
