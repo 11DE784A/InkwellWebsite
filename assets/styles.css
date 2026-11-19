@@ -188,7 +188,7 @@ section h2 {
   box-shadow: 0 0 0.8rem var(--chocolate-brown);
 }
 
-.art-comics {
+.art {
   background-image: url("/assets/images/sketch-flowers.png");
 }
 
@@ -200,7 +200,7 @@ section h2 {
   background-image: url("/assets/images/sketch-lightbulb.png");
 }
 
-.personalessay {
+.personal-essay {
   background-image: url("/assets/images/sketch-paperplanes.png");
 }
 
@@ -208,7 +208,7 @@ section h2 {
   background-image: url("/assets/images/sketch-pen.png");
 }
 
-.reviews-recs {
+.review {
   background-image: url("/assets/images/sketch-reel.png");
 }
 
