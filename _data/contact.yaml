@@ -1,0 +1,11 @@
+- label: Instagram
+  url: https://www.instagram.com/sissainkwell
+  hover: "@sissainkwell on Instagram"
+
+- label: Email
+  url: mailto:sissamagazine@sissa.it
+  hover: sissamagazine [at] sissa [dot] it
+
+- label: Feed
+  url: /feed.xml
+  hover: Latest articles XML feed
