@@ -10,7 +10,7 @@ This repository contains source files for the SISSA Inkwell website.
 - [x] Issues page
 - [x] Customize the 404 page
 - [x] Favicon
-- [ ] Configure XML feed
+- [x] Configure XML feed
 - [x] Links to Instagram and Email
 - [ ] Analytics
 - [ ] Multilingual pages

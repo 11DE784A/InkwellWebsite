@@ -6,6 +6,6 @@
   url: mailto:sissamagazine@sissa.it
   hover: sissamagazine [at] sissa [dot] it
 
-- label: Feed
+- label: Atom Feed
   url: /feed.xml
-  hover: Latest articles XML feed
+  hover: Atom (RSS-like) feed for latest articles
