@@ -80,7 +80,7 @@ body > * {
   margin-bottom: 2.4rem;
 }
 
-header {
+body > header {
   background-image: url("/assets/images/backgroundwriting.jpg");
   background-size: 25%;
 }

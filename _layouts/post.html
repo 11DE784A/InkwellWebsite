@@ -3,7 +3,7 @@ layout: default
 background: light
 ---
 
-<div class="post-header">
+<header class="post-header">
   <div>
     {% for tag in page.tags %} <span class="tag">{{ tag }}</span> {% endfor %}
     {% if page.category %} <span class="tag">Issue {{ page.category }}</span> {% endif %}
@@ -14,7 +14,7 @@ background: light
     <span class="author">{{ page.author }}</span>
     <time class="date">{{ page.date | date: '%d %B %Y'}}</time>
   </div>
-</div>
+</header>
 
 {{ content }}
 
