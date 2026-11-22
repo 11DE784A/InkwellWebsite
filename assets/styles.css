@@ -315,14 +315,17 @@ section a:active {
 footer {
   align-items: center;
   background: var(--chocolate-brown);
-  padding: 4rem;
   margin: unset;
   display: flex;
 }
 
+.footer-left,
+.footer-right {
+  margin: 4rem;
+}
+
 .footer-left {
   flex: 1;
-  margin-right: 4rem;
 }
 
 .footer-right {
@@ -381,13 +384,5 @@ footer {
 @media (max-width: 720px) {
   footer {
     display: unset;
-  }
-
-  footer > * {
-    margin-bottom: 2.4rem;
-  }
-
-  .footer-left {
-    margin-right: unset;
   }
 }
