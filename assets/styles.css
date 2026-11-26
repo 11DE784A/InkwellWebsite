@@ -108,9 +108,12 @@ nav:hover {
 }
 
 nav ul li {
-  font-weight: bold;
+  font-family: var(--sans-font);
+  font-weight: 800;
+  font-size: calc(0.9 * var(--base-font-size));
   display: inline-block;
   margin: 1rem;
+  text-transform: uppercase;
 }
 
 

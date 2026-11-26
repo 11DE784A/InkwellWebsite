@@ -2,8 +2,8 @@ sections:
   - title: Latest
     url: /
 
-  - title: Issues
-    url: /issues/
+#  - title: Issues
+#    url: /issues/
 
   - title: Categories
     url: /categories/
