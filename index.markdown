@@ -3,15 +3,39 @@ layout: default
 title: Home
 ---
 
-<h1>Welcome to SISSA Inkwell!</h1>
+# Welcome to SISSA Inkwell!
 
 SISSA Inkwell is a shared community publication in which everyone is free to
-speak out about <em>anything</em>. 
+speak out about _anything_. Our first issue is out now!
 
-We are preparing our first issue right now, please check back in soon for
-updates! You can follow us on
-[Instagram](https://www.instagram.com/sissainkwell) and subscribe to the [Atom
-feed](/feed.xml)
+{% assign letter = site.posts | where: "slug", "the-worlds-we-carry" | first %}
+{% include post_card.html post=letter %}
 
-{% include post_list.html posts=site.posts %}
+## Browse by category
+
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+{% if tag[0] == "Letter from the Editor" %} {% continue %} {% endif %}
+### {{ tag[0] }}
+
+{% assign tag_posts = tag[1] %}
+{% include post_list.html posts=tag_posts %}
+
+{% endfor %}
+
+## Credits
+
+__Editorial Team.__ 
+Mohamed Aliouane, 
+Anindita Basu, 
+Aliza Mustafa,
+Camilla Perna,
+Valentin Pomakov,
+Ayush Singh,
+Rubio Gunawan The, and
+Enrico Veraldi.
+
+__Design & Layout.__ Camilla Perna.
+
+__Web Design.__ [Ayush Singh](https://www.11de784a.com/).
 

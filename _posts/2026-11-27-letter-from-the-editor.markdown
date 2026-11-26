@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Worlds We Carry
+slug: the-worlds-we-carry
 author: Aliza Mustafa
 tags: [Letter from the Editor]
 date: 2026-11-27 00:00:01 +0200
