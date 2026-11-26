@@ -4,7 +4,7 @@ title: The Worlds We Carry
 slug: the-worlds-we-carry
 author: Aliza Mustafa
 tags: [Letter from the Editor]
-date: 2026-11-27 00:00:01 +0200
+date: 2026-11-26 00:00:01 +0200
 category: 1
 excerpt: We spend our lives walking past one another, each carrying a world of our own. How wonderful it would be to occasionally open the door to someone else's.
 ---
