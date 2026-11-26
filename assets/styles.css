@@ -350,6 +350,10 @@ blockquote {
   font-weight: 800;
 }
 
+.post-footer {
+  font-style: italic;
+}
+
 /* Links */
 
 a {
@@ -387,7 +391,7 @@ section a:active {
 
 /* Footer */
 
-footer {
+body > footer {
   align-items: center;
   background: var(--chocolate-brown);
   margin: unset;
@@ -424,13 +428,13 @@ footer {
   width: 20rem;
 }
 
-footer ul {
+body > footer ul {
   list-style: none;
   margin: 0 auto;
   padding: 0;
 }
 
-footer ul li {
+body > footer ul li {
   display: inline-block;
   margin: 0.4rem 0;
   margin-right: 1rem;
@@ -452,13 +456,13 @@ main {
   flex: 1;
 }
 
-footer {
+body > footer {
   flex-shrink: 0;
 }
 
 /* Media queries */
 @media (max-width: 720px) {
-  footer {
+  body > footer {
     display: unset;
   }
 }
