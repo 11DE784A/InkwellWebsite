@@ -9,6 +9,10 @@ category: 1
 excerpt: We spend our lives walking past one another, each carrying a world of our own. How wonderful it would be to occasionally open the door to someone else's.
 ---
 
+<figure class="float">
+  <img src="/assets/issue-1/the-worlds-we-carry.png">
+</figure>
+
 Dear Reader,
 
 Have you ever wondered how much you really know about the people around you, or
