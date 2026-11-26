@@ -63,6 +63,11 @@ video {
   max-width: 100%;
 }
 
+.float {
+  float: right;
+  width: 25%;
+}
+
 iframe {
   border: 0;
 }
@@ -464,5 +469,13 @@ body > footer {
 @media (max-width: 720px) {
   body > footer {
     display: unset;
+  }
+}
+
+@media (max-width: 620px) {
+  .float {
+    text-align: center;
+    float: unset;
+    width: unset;
   }
 }
