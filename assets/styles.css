@@ -44,6 +44,7 @@
 html {
   font-kerning: normal;
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -299,6 +300,37 @@ blockquote {
   padding: 0.8rem 1.6rem;
   background: var(--beige);
   border-left: 0.5rem solid var(--chocolate-brown);
+}
+
+.home-index {
+  list-style: none;
+  padding: 0;
+}
+
+.home-index li {
+  display: inline-block;
+  margin: 0.8rem 0;
+  margin-right: 0.4rem;
+}
+
+.home-index a:link,
+.home-index a:visited,
+.home-index a:focus {
+  background: var(--burgundy);
+  border-radius: var(--box-radius);
+  box-shadow: 0 0 0.2rem var(--burgundy);
+  color: var(--beige);
+  font-family: var(--sans-font);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+}
+
+.home-index a:hover,
+.home-index a:active {
+  background: var(--chocolate-brown);
+  box-shadow: 0 0 0.4rem var(--burgundy);
+  color: var(--burgundy);
 }
 
 /* Post page */

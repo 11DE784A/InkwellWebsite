@@ -11,7 +11,18 @@ speak out about _anything_. Our first issue is out now!
 {% assign letter = site.posts | where: "slug", "the-worlds-we-carry" | first %}
 {% include post_card.html post=letter %}
 
-## Browse by category
+## In this issue...
+
+Browse contributions by category.
+
+{% assign sorted_tags = site.tags | sort %}
+<ul class="home-index">
+  {% for tag in sorted_tags %}
+  {% if tag[0] == "Letter from the Editor" %} {% continue %} {% endif %}
+  <li><a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
+  {% endfor %}
+</ul>
+
 
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
