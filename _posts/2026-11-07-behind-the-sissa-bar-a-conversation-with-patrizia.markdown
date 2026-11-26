@@ -8,7 +8,13 @@ category: 1
 excerpt: Before she retires next year, we sat down with Patrizia to talk about coffee, a childhood in South Africa, twenty-two years running a bar in Muggia, and what it's really like to serve a building full of scientists. 
 ---
 
-![Patrizia at the SISSA bar, standing next to the coffee station.](/assets/issue-1/patrizia.jpg)
+<figure>
+  <img src="/assets/issue-1/patrizia.jpg" 
+       alt="Patrizia at the SISSA bar, standing next to the coffee station.">
+  <figcaption>Patrizia at the SISSA bar, next to the coffee station. Portrait
+  by Nour.
+  </figcaption>
+</figure>
 
 For almost seventeen years, Patrizia has been the first face many of us see in
 the morning: the one who knows your name and your order before you reach the
