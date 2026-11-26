@@ -6,7 +6,7 @@
   --box-radius: 1rem;
 
   --sans-font: 'Alegreya Sans', sans-serif;
-  --serif-font: 'Alegreya', serif;
+  --serif-font: 'Alegreya', 'Sahitya', serif;
   --mono-font: 'Iosevka Charon Mono', monospace;
 
   /* Colors */
@@ -142,7 +142,8 @@ main {
   padding-right: 2rem;
 }
 
-main > * {
+main > *,
+.lang-container > * {
   margin-bottom: 2.4rem;
 }
 
