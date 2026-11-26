@@ -47,6 +47,10 @@ to be the most consistent and united team.
 
 __Winners.__ Physics (Sacco, Romano, Russotto, Keppler, Tortora, Panduranghan Udhayashankar)
 
+<figure>
+  <img src="/assets/issue-1/unknown-sport.jpg">
+</figure>
+
 ## Table tennis (doubles)
 
 After four years of trying, data scientists Federico Caretti and Debarshi
@@ -54,6 +58,16 @@ Banjeree finally claimed victory in the table tennis double tournament. The
 trophy was awarded during their PhD graduation celebration.
 
 __Winners.__ Federico “Fedo” Caretti and Debarshi Banjeree
+
+<div class="figure-flex">
+  <figure>
+    <img src="/assets/issue-1/table-tennis-singles.jpg">
+  </figure>
+  
+  <figure>
+    <img src="/assets/issue-1/table-tennis-doubles.jpg">
+  </figure>
+</div>
 
 ## Table tennis (singles)
 
