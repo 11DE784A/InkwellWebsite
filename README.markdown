@@ -5,13 +5,13 @@ This repository contains source files for the SISSA Inkwell website.
 ## TODO
 
 - [ ] Analytics
-- [ ] Multilingual pages
-- [ ] Style figure captions
+- [x] Multilingual pages
+- [x] Style figure captions
 - [ ] Cards
   - [ ] Separators in tags
   - [ ] Make tags clickable
-  - [ ] Image previews in cards
-- [o] Licenses
+  - [-] Image previews in cards
+- [-] Licenses
   - [x] Copyright notice
   - [ ] Use reuse for code (use [REUSE](https://reuse.software/))
   - [ ] Add a section to the README
