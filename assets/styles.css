@@ -14,7 +14,7 @@
   --white: #fff;
   --black: #000;
 
-  --white-90: rgba(255, 255, 255, 0.90);
+  --white-80: rgba(255, 255, 255, 0.80);
   
   --grey-ee: #eee;
   --grey-df: #dfdfdf;
@@ -212,7 +212,7 @@ section h2 {
 }
 
 .card {
-  background: var(--white-90);
+  background: var(--white-80);
   background-blend-mode: lighten;
   background-position: 98% 50%;
   background-repeat: no-repeat;
@@ -227,7 +227,8 @@ section h2 {
   box-shadow: 0 0 0.8rem var(--chocolate-brown);
 }
 
-.art {
+.art,
+.culture {
   background-image: url("/assets/images/sketch-flowers.png");
 }
 
@@ -235,11 +236,7 @@ section h2 {
   background-image: url("/assets/images/sketch-quill.png");
 }
 
-.opinion {
-  background-image: url("/assets/images/sketch-lightbulb.png");
-}
-
-.personal-essay {
+.personal-reflections {
   background-image: url("/assets/images/sketch-paperplanes.png");
 }
 
@@ -247,8 +244,17 @@ section h2 {
   background-image: url("/assets/images/sketch-pen.png");
 }
 
+.politics,
+.letter-from-the-editor {
+  background-image: url("/assets/images/sketch-lightbulb.png");
+}
+
 .review {
   background-image: url("/assets/images/sketch-reel.png");
+}
+
+.sissa-news {
+  background-image: url("/assets/images/sketch-flying-sheets.png");
 }
 
 .author,
