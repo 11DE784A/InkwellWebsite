@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Behind the SISSA Bar: a Conversation with Patrizia"
-author: Nour
+author: Nour El-Kazwini
 tags: [Interview, SISSA News]
 date: 2026-11-07 00:00:01 +0200
 category: 1
@@ -12,7 +12,7 @@ excerpt: Before she retires next year, we sat down with Patrizia to talk about c
   <img src="/assets/issue-1/patrizia.jpg" 
        alt="Patrizia at the SISSA bar, standing next to the coffee station.">
   <figcaption>Patrizia at the SISSA bar, next to the coffee station. Portrait
-  by Nour.
+  by Nour El-Kazwini.
   </figcaption>
 </figure>
 
