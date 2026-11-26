@@ -6,15 +6,23 @@ This repository contains source files for the SISSA Inkwell website.
 
 - [ ] Analytics
 - [ ] Multilingual pages
-- [ ] Instructions for adding new posts and new social media
+- [ ] Style figure captions
 - [ ] Cards
   - [ ] Separators in tags
   - [ ] Make tags clickable
   - [ ] Image previews in cards
-- [ ] Licenses (use [REUSE](https://reuse.software/))
+- [o] Licenses
   - [x] Copyright notice
-  - [ ] Use reuse for code
+  - [ ] Use reuse for code (use [REUSE](https://reuse.software/))
   - [ ] Add a section to the README
+- [ ] Instructions for adding new posts and new social media
+
+## Post check-list
+
+- Clickable URLs 
+- Correct tags
+- Good excerpt
+- Match date with date of submission
 
 ## About the website
 
