@@ -192,6 +192,25 @@ section h2 {
   font-weight: bold;
 }
 
+.figure-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.figure-flex > * {
+  flex: 1;
+}
+
+.figure-flex img {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+}
+
+.figure-flex figcaption {
+  text-align: center;
+}
+
 .card {
   background: var(--white-90);
   background-blend-mode: lighten;
