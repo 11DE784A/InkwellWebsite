@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fish Wife and Virtual Muse 
-author: Rubio Gunawan
+author: Rubio Gunawan The
 tags: [Art]
 date: 2026-10-09 00:00:01 +0200
 category: 1
@@ -10,6 +10,7 @@ excerpt: You can find your muse anywhere, in nature, in life, and in your own im
 
 <figure>
   <img src="/assets/issue-1/fish-wife.png">
+  <figcaption>Enryn, the Triton Barbarian by {{ page.author }}</figcaption>
 </figure>
 
 Hello SISSA Inkwell readers! I am Rubio, and I like to draw. I try to practice

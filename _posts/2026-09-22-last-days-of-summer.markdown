@@ -8,7 +8,10 @@ category: 1
 excerpt: "That bittersweet sensation you feel when you are in a state of pure joy, and you know it’s going to end sooner or later."
 ---
 
-![Last Days of Summer](/assets/issue-1/last-days-of-summer.png)
+<figure>
+  <img src="/assets/issue-1/last-days-of-summer.png" alt="Last Days of Summer">
+  <figcaption>Last Days of Summer by {{ page.author }}</figcaption>
+</figure>
 
 _Last Days of Summer_ captures a sense of what ease looks like and
 how quickly it can disappear. It is no coincidence that this artwork was
