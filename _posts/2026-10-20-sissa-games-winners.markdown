@@ -54,18 +54,24 @@ __Winners.__ Physics (Sacco, Romano, Russotto, Keppler, Tortora, Panduranghan Ud
 ## Table tennis (doubles)
 
 After four years of trying, data scientists Federico Caretti and Debarshi
-Banjeree finally claimed victory in the table tennis double tournament. The
+Banerjee finally claimed victory in the table tennis double tournament. The
 trophy was awarded during their PhD graduation celebration.
 
-__Winners.__ Federico “Fedo” Caretti and Debarshi Banjeree
+__Winners.__ Federico “Fedo” Caretti and Debarshi Banerjee.
 
 <div class="figure-flex">
   <figure>
     <img src="/assets/issue-1/table-tennis-singles.jpg">
+    <figcaption>
+      Table tennis (singles) finalists Ting-Yang Hsiao and Timon Kunze.
+    </figcaption>
   </figure>
   
   <figure>
     <img src="/assets/issue-1/table-tennis-doubles.jpg">
+    <figcaption>
+      Table tennis (doubles) winners Federico Caretti and Debarshi Banerjee.
+    </figcaption>
   </figure>
 </div>
 
