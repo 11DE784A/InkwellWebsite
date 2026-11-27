@@ -40,7 +40,7 @@ Another historical character that Khayyam meets is Hassan Al Sabbah, the
 founder of the mythical order of Assassins (“Hashashin”), probably the most
 powerful criminal organisation in history. In a very genius literary game,
 involving Khayyam's _Rubaiyat_, the author jumps to the end of the 19th century,
-where historical figures such as Djamel Eddine Al Afghani, a very influential
+introducing historical figures such as Djamel Eddine Al Afghani, a very influential
 Islamic theologian and reformist, and Howard Baskerville, a young American
 teacher. The latter was killed during the Persian Constitutional Revolution
 while trying to break the siege of Tabriz (1908--1909).
