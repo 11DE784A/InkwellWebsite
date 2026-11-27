@@ -202,7 +202,7 @@ section h2 {
 figcaption {
   color: var(--grey-44);
   font-size: calc(0.9 * var(--base-font-size));
-  margin: 1rem 0;
+  margin: 1rem 0.25rem;
   text-align: center;
 }
 
