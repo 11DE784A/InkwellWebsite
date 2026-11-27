@@ -11,8 +11,7 @@ excerpt: Before she retires next year, we sat down with Patrizia to talk about c
 <figure>
   <img src="/assets/issue-1/patrizia.jpg" 
        alt="Patrizia at the SISSA bar, standing next to the coffee station.">
-  <figcaption>Patrizia at the SISSA bar, next to the coffee station. Photo
-  by {{ page.author }}.
+  <figcaption>Patrizia at the SISSA bar, next to the coffee station.
   </figcaption>
 </figure>
 
